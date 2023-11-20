@@ -43,7 +43,7 @@ SRCS    		=		ft_is/ft_isalnum.c \
 					
 OBJS			=	$(SRCS:.c=.o)
 
-BONUS			=	ft_lstnew.c \
+BONUS			=		ft_lst/ft_lstnew.c \
 					ft_lst/ft_lstadd_front.c \
 					ft_lst/ft_lstsize.c \
 					ft_lst/ft_lstlast.c \
@@ -51,14 +51,10 @@ BONUS			=	ft_lstnew.c \
 					ft_lst/ft_lstdelone.c \
 					ft_lst/ft_lstclear.c \
 					ft_lst/ft_lstiter.c \
-					ft_lstft_lstmap.c \
-					
-PRINTF			= 	ft_printf/ft_printf.c \
-				ft_printf/ft_printf_utils.c
+					ft_lst/ft_lstmap.c \
 
 BONUS_OBJS		= 	$(BONUS:.c=.o)
 
-PRINTF_OBJS 		=	$(PRINTF:.c=.o)
 
 all: ${NAME}
 
