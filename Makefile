@@ -52,8 +52,13 @@ BONUS			=	ft_lstnew.c \
 					ft_lst/ft_lstclear.c \
 					ft_lst/ft_lstiter.c \
 					ft_lstft_lstmap.c \
+					
+PRINTF			= 	ft_printf/ft_printf.c \
+				ft_printf/ft_printf_utils.c
 
 BONUS_OBJS		= 	$(BONUS:.c=.o)
+
+PRINTF_OBJS 		=	$(PRINTF:.c=.o)
 
 all: ${NAME}
 
